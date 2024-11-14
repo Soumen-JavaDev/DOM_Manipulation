@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM manipulation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1 class="heading">Counter Using HTML</h1>
+    </header>
+    <div class="main_container">
+        <div class="counter">Your Current Count is :  <span class="counter_value"> 1</span>
+        <hr>
+        </div>
+      
+        <div class="error_mas">Error : Cannot Go Below 0</div>
+        <div class="buton_preant">
+            <button onclick="counterinde('-')" id="button2">Decremen</button>
+            <button onclick="counterinde('+')" id="button1">Increment</button>
+         
+            <button id="button3" onclick="allclear()">Clear</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
